@@ -71,4 +71,4 @@ regressor.fit(x_train, y_train)
 #saving model to disk
 import pickle
 
-pickle.dump(regressor,open('C:\\Users\\user\\Desktop\\Projects\\Minor Project - 2\\Deployment\PFZ model.pkl','wb'))
+pickle.dump(regressor,open('PFZ model.pkl','wb'))
