@@ -18,7 +18,7 @@ For comparative analysis we have used 3 regression techniques and evaluated them
 3. Random Forest Regression
 
 # Prediction
-We have used an API of alphavantage to get the real time data and modify the data according to the requirements to get the new features for prediction
+We have used an API of www.alphavantage.co to get the real time data and modify the data according to the requirements to get the new features for prediction.
 
 # Deployment
 We have used Flask to deploy the project and saved the model in pkl file so that we don't need to run the model again and again.
