@@ -22,7 +22,7 @@ def predict():
 				'function': 'TIME_SERIES_DAILY',
 				'symbol': 'RELIANCE.BSE',
 				'outputsize' :'full',
-				'apikey' : 'SD7E3STMW2WO613H'
+				'apikey' : 'your-api-key'
 				#   'query': 'New York'
 			}
 
@@ -68,7 +68,7 @@ def predict():
 				'function': 'TIME_SERIES_DAILY',
 				'symbol': 'PFE',
 				'outputsize' :'full',
-				'apikey' : 'SD7E3STMW2WO613H'
+				'apikey' : 'your-api-key'
 				#   'query': 'New York'
 			}
 
