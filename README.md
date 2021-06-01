@@ -22,3 +22,5 @@ We have used an API of alphavantage to get the real time data and modify the dat
 
 # Deployment
 We have used Flask to deploy the project and saved the model in pkl file so that we don't need to run the model again and again.
+
+To deploy, First run 'PFZ Model.py' and 'REL Model.py' to get 'PFZ Model.pkl' and 'REL Model.pkl' files and then run app.py to deploy the project.
