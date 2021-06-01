@@ -56,7 +56,7 @@ def predict():
 			sd_7 = round(math.sqrt(sum_sd/7),6)
 
 			input = [[volume,o_c,h_l,avg_7,avg_21, sd_7]]
-			REL_model= pickle.load(open('C:\\Users\\user\\Desktop\\Projects\\Minor Project - 2\\Deployment\REL model.pkl','rb'))
+			REL_model= pickle.load(open('REL model.pkl','rb'))
 			prediction= round(REL_model.predict(input)[0],2)
 
 
@@ -102,7 +102,7 @@ def predict():
 			sd_7 = round(math.sqrt(sum_sd/7),6)
 
 			input = [[volume,o_c,h_l,avg_7,avg_21, sd_7]]
-			PFZ_model= pickle.load(open('C:\\Users\\user\\Desktop\\Projects\\Minor Project - 2\\Deployment\PFZ model.pkl','rb'))
+			PFZ_model= pickle.load(open('PFZ model.pkl','rb'))
 			prediction= round(PFZ_model.predict(input)[0],2)
 
 			return render_template('index.html', prediction_text='Prediction of next day Closing Price of Pfizer Inc. after date {} is ${}'.format(list(api_response['Time Series (Daily)'].keys())[0],prediction))
