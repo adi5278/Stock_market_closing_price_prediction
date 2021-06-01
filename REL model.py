@@ -9,7 +9,7 @@ from sklearn.metrics import r2_score,mean_squared_error
 
 #Data Preprocessing -- Turning data into required useful data
 
-df = pd.read_csv("C:\\Users\\user\\Desktop\\Projects\\Minor Project - 2\\Dataset\RELIANCE.BO.csv")
+df = pd.read_csv("RELIANCE.BO.csv")
 df= df[df.Volume!=0]
 df = df.reset_index(drop=True)
 df = df.drop(np.where(np.isnan(df['Volume'].to_numpy().astype('float32')))[0])
